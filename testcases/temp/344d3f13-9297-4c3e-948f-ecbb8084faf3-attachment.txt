@@ -1,0 +1,2 @@
+INFO     root:member.py:23 {'errcode': 60103, 'errmsg': 'invalid mobile, hint: [1627832227_148_390038ce476466b9d646a50ff72ee7d1], from ip: 223.104.122.23, more info at https://open.work.weixin.qq.com/devtool/query?e=60103'}
+INFO     root:test_member.py:15 {'mobile': 'mobile'}

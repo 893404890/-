@@ -1,0 +1,2 @@
+INFO     root:member.py:23 {'errcode': 60103, 'errmsg': 'Warning: wrong json format. invalid mobile, hint: [1627820664_148_f6ca45d5e7ab78e00f53eb0e38de6582], from ip: 223.104.122.23, more info at https://open.work.weixin.qq.com/devtool/query?e=60103'}
+INFO     root:test_member.py:15 {'department': 1, 'mobile': '$ {get_mobile}', 'name': 'zhangsan', 'userid': 20210731}

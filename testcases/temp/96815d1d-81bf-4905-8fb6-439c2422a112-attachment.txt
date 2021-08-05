@@ -1,0 +1,1 @@
+INFO     root:test_member.py:19 {'result': 0}

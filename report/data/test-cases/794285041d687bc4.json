@@ -1,0 +1,94 @@
+{
+  "uid" : "794285041d687bc4",
+  "name" : "test_add[电话号码不合法]",
+  "fullName" : "testcases.test_member.TestMember#test_add",
+  "historyId" : "eb0b981c7f0efc5201f63eff0815a1f4",
+  "time" : {
+    "start" : 1628036655802,
+    "stop" : 1628036656317,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "userinfo",
+    "time" : {
+      "start" : 1628036655458,
+      "stop" : 1628036655458,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2db4dca2b2f43edb",
+      "name" : "log",
+      "source" : "2db4dca2b2f43edb.txt",
+      "type" : "text/plain",
+      "size" : 227
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "成员管理"
+  }, {
+    "name" : "story",
+    "value" : "添加用户：user/create"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "10732-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userinfo",
+    "value" : "{'department': 1, 'mobile': 13968703191, 'name': 'zhangsan', 'userid': 2021073151}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "794285041d687bc4.json",
+  "parameterValues" : [ "{'department': 1, 'mobile': 13968703191, 'name': 'zhangsan', 'userid': 2021073151}" ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "f3691bc75db8780c",
+  "name" : "test_delete[删除成功]",
+  "fullName" : "testcases.test_member.TestMember#test_delete",
+  "historyId" : "eb1163ae7efddfc12d69cf5408bccb2e",
+  "time" : {
+    "start" : 1628122848723,
+    "stop" : 1628122850239,
+    "duration" : 1516
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getuserid",
+    "time" : {
+      "start" : 1628122848270,
+      "stop" : 1628122848270,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32d651f940362e8a",
+      "name" : "log",
+      "source" : "32d651f940362e8a.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除用户"
+  }, {
+    "name" : "feature",
+    "value" : "成员管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "13244-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userid",
+    "value" : "'20210805082042'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3691bc75db8780c.json",
+  "parameterValues" : [ "'20210805082042'" ]
+}

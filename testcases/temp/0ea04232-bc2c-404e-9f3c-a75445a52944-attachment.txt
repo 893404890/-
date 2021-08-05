@@ -1,0 +1,2 @@
+INFO     root:member.py:21 {'errcode': 60112, 'errmsg': 'invalid name, hint: [1628116969_148_0285c8eefd4ffa031bf4f4ec805de5af], from ip: 223.104.122.66, more info at https://open.work.weixin.qq.com/devtool/query?e=60112'}
+INFO     root:test_member.py:19 [{'params': None, 'department': 1, 'mobile': 121080520214, 'name': 'zhangsan', 'userid': 121080520214}, {'result': 0}]

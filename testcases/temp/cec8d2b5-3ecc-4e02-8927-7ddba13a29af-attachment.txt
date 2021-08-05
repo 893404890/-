@@ -1,0 +1,2 @@
+INFO     root:member.py:21 {'errcode': 60104, 'errmsg': 'Warning: wrong json format. mobile existed:121080520213'}
+INFO     root:test_member.py:19 [{'params': {'department': 1, 'mobile': 121080520213, 'name': 'zhangsan', 'userid': 121080520213}}, {'result': 60104}]

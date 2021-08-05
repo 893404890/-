@@ -1,0 +1,2 @@
+INFO     root:member.py:23 {'errcode': 60112, 'errmsg': 'Warning: wrong json format. invalid name, hint: [1627832555_148_32ccc02910abceff0ab9bb2ed3e2d3b3], from ip: 223.104.122.47, more info at https://open.work.weixin.qq.com/devtool/query?e=60112'}
+INFO     root:test_member.py:15 user-db

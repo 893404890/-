@@ -1,0 +1,40 @@
+ids:
+  - 添加成功
+  - userid已存在
+  - 电话号码不合法
+  - 不串userid
+
+
+data:
+  -
+    - params:   #请求参数
+        department: 1
+        mobile: $mobile
+        name: zhangsan
+        userid: $userid
+    - result: 0 #预期结果
+  -
+    - params:
+        department: 1
+        mobile: 13524569874
+        name: zhangsan
+        userid: 121080520213
+    - result: 60102
+
+  -
+    - params:
+        department: 1
+        mobile: 0139687031911212
+        name: zhangsan
+        userid: 20210731510
+    - result: 60103
+  -
+    - params:
+        department: 1
+        mobile: 13968703190
+        name: zhangsan
+    - result: 41009
+
+
+
+

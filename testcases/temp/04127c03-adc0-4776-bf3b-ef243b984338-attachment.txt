@@ -1,0 +1,2 @@
+INFO     root:member.py:23 {'errcode': 60129, 'errmsg': 'Warning: wrong json format. missing mobile or email, hint: [1627822699_148_e3632dff1905160d0e159f62c0224b87], from ip: 223.104.122.47, more info at https://open.work.weixin.qq.com/devtool/query?e=60129'}
+INFO     root:test_member.py:15 {'department': 1, 'mobile': None, 'name': 'zhangsan', 'userid': 20210731142143}

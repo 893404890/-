@@ -1,0 +1,26 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "3d41bf70554f4ac0b6d5674b70950f9e",
+    "name" : "添加标签",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "f7a655af40ad79b56b018580d56baa3a",
+    "name" : "成员管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

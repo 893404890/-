@@ -1,0 +1,6 @@
+2021-08-05 08:19:14 INFO {'errcode': 0, 'errmsg': 'created. Warning: wrong json format. '} member.py:21
+2021-08-05 08:19:15 INFO {'errcode': 0, 'errmsg': 'deleted'} member.py:48
+2021-08-05 08:19:16 INFO {'errcode': 0, 'errmsg': 'created. Warning: wrong json format. '} member.py:21
+2021-08-05 08:19:17 INFO {'errcode': 0, 'errmsg': 'deleted'} member.py:48
+2021-08-05 08:19:19 INFO {'errcode': 0, 'errmsg': 'created. Warning: wrong json format. '} member.py:21
+2021-08-05 08:19:20 INFO {'errcode': 0, 'errmsg': 'deleted'} member.py:48

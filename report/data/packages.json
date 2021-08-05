@@ -1,0 +1,225 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_tag",
+      "children" : [ {
+        "name" : "标签名1627484481.6995542",
+        "uid" : "557746c06905ea30",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627484481700,
+          "stop" : 1627484482168,
+          "duration" : 468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "标签名121313",
+        "uid" : "f3d9c108257b8dea",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628122855223,
+          "stop" : 1628122855832,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "121313" ]
+      }, {
+        "name" : "标签名31313",
+        "uid" : "e853452b9cb3aa56",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628122855863,
+          "stop" : 1628122856473,
+          "duration" : 610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "31313" ]
+      }, {
+        "name" : "标签名31313",
+        "uid" : "12a5b85468fab704",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628122856488,
+          "stop" : 1628122856957,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "31313" ]
+      }, {
+        "name" : "test_update",
+        "uid" : "37c760d4dff69895",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122856973,
+          "stop" : 1628122858176,
+          "duration" : 1203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete",
+        "uid" : "95aac437a85ab436",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122858191,
+          "stop" : 1628122859113,
+          "duration" : 922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get",
+        "uid" : "45ce2d340d98016e",
+        "parentUid" : "9ea2edf8ce7594b68168b31a865e8053",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122859129,
+          "stop" : 1628122859551,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ea2edf8ce7594b68168b31a865e8053"
+    }, {
+      "name" : "test_member",
+      "children" : [ {
+        "name" : "test_delete",
+        "uid" : "cdf8e855630688e0",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627952468234,
+          "stop" : 1627952468234,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add",
+        "uid" : "54a235503d6741de",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628036501534,
+          "stop" : 1628036501534,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add[添加成功]",
+        "uid" : "23e687f3ecb06585",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122843354,
+          "stop" : 1628122844510,
+          "duration" : 1156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'params': {'department': 1, 'mobile': 10805082041, 'name': 'zhangsan', 'userid': 10805082041}}, {'result': 0}]" ]
+      }, {
+        "name" : "test_add[userid已存在]",
+        "uid" : "7f95265b2c3e6a8",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122845145,
+          "stop" : 1628122845942,
+          "duration" : 797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'params': {'department': 1, 'mobile': 13524569874, 'name': 'zhangsan', 'userid': 121080520213}}, {'result': 60102}]" ]
+      }, {
+        "name" : "test_add[电话号码不合法]",
+        "uid" : "f7aa27d83c26640c",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122846364,
+          "stop" : 1628122846786,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'params': {'department': 1, 'mobile': '0139687031911212', 'name': 'zhangsan', 'userid': 20210731510}}, {'result': 60103}]" ]
+      }, {
+        "name" : "test_add[不串userid]",
+        "uid" : "4de4b4d45f609e4d",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122847598,
+          "stop" : 1628122848270,
+          "duration" : 672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'params': {'department': 1, 'mobile': 13968703190, 'name': 'zhangsan'}}, {'result': 41009}]" ]
+      }, {
+        "name" : "test_delete[删除成功]",
+        "uid" : "f3691bc75db8780c",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122848723,
+          "stop" : 1628122850239,
+          "duration" : 1516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'20210805082042'" ]
+      }, {
+        "name" : "test_delete[删除的用户id不存在]",
+        "uid" : "1753882891cf117e",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122850801,
+          "stop" : 1628122852410,
+          "duration" : 1609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4214" ]
+      }, {
+        "name" : "test_delete[重复删除一个userid]",
+        "uid" : "e930f12ac8f6fd92",
+        "parentUid" : "dca74b6805b4c9600a9757836f50a942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628122853020,
+          "stop" : 1628122854598,
+          "duration" : 1578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "213251" ]
+      } ],
+      "uid" : "dca74b6805b4c9600a9757836f50a942"
+    } ],
+    "uid" : "141fa05f02bf329144b0086cf92149a8"
+  } ]
+}

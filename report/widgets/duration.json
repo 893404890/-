@@ -1,0 +1,161 @@
+[ {
+  "uid" : "54a235503d6741de",
+  "name" : "test_add",
+  "time" : {
+    "start" : 1628036501534,
+    "stop" : 1628036501534,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1753882891cf117e",
+  "name" : "test_delete[删除的用户id不存在]",
+  "time" : {
+    "start" : 1628122850801,
+    "stop" : 1628122852410,
+    "duration" : 1609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "557746c06905ea30",
+  "name" : "标签名1627484481.6995542",
+  "time" : {
+    "start" : 1627484481700,
+    "stop" : 1627484482168,
+    "duration" : 468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdf8e855630688e0",
+  "name" : "test_delete",
+  "time" : {
+    "start" : 1627952468234,
+    "stop" : 1627952468234,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "37c760d4dff69895",
+  "name" : "test_update",
+  "time" : {
+    "start" : 1628122856973,
+    "stop" : 1628122858176,
+    "duration" : 1203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3691bc75db8780c",
+  "name" : "test_delete[删除成功]",
+  "time" : {
+    "start" : 1628122848723,
+    "stop" : 1628122850239,
+    "duration" : 1516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23e687f3ecb06585",
+  "name" : "test_add[添加成功]",
+  "time" : {
+    "start" : 1628122843354,
+    "stop" : 1628122844510,
+    "duration" : 1156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7aa27d83c26640c",
+  "name" : "test_add[电话号码不合法]",
+  "time" : {
+    "start" : 1628122846364,
+    "stop" : 1628122846786,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3d9c108257b8dea",
+  "name" : "标签名121313",
+  "time" : {
+    "start" : 1628122855223,
+    "stop" : 1628122855832,
+    "duration" : 609
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e853452b9cb3aa56",
+  "name" : "标签名31313",
+  "time" : {
+    "start" : 1628122855863,
+    "stop" : 1628122856473,
+    "duration" : 610
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "12a5b85468fab704",
+  "name" : "标签名31313",
+  "time" : {
+    "start" : 1628122856488,
+    "stop" : 1628122856957,
+    "duration" : 469
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4de4b4d45f609e4d",
+  "name" : "test_add[不串userid]",
+  "time" : {
+    "start" : 1628122847598,
+    "stop" : 1628122848270,
+    "duration" : 672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f95265b2c3e6a8",
+  "name" : "test_add[userid已存在]",
+  "time" : {
+    "start" : 1628122845145,
+    "stop" : 1628122845942,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45ce2d340d98016e",
+  "name" : "test_get",
+  "time" : {
+    "start" : 1628122859129,
+    "stop" : 1628122859551,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e930f12ac8f6fd92",
+  "name" : "test_delete[重复删除一个userid]",
+  "time" : {
+    "start" : 1628122853020,
+    "stop" : 1628122854598,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95aac437a85ab436",
+  "name" : "test_delete",
+  "time" : {
+    "start" : 1628122858191,
+    "stop" : 1628122859113,
+    "duration" : 922
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

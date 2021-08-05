@@ -1,0 +1,2 @@
+INFO     root:member.py:23 {'errcode': 40058, 'errmsg': 'mobile exceed min length 5. Invalid input invalid Request Parameter, hint: [1627832091_148_7d680ea11b475e55984bf7e822e42569], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+INFO     root:test_member.py:15 {'mobile': 'test'}
