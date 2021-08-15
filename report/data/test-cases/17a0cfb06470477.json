@@ -1,0 +1,92 @@
+{
+  "uid" : "17a0cfb06470477",
+  "name" : "标签名31313",
+  "fullName" : "testcases.test_tag.TestTag#test_add",
+  "historyId" : "0bf691ca1adb46d80a6bde4b154f6eae",
+  "time" : {
+    "start" : 1628122856488,
+    "stop" : 1628122856957,
+    "duration" : 469
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
+  "statusTrace" : "E   assert 40071 == 0\n      +40071\n      -0",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag",
+    "time" : {
+      "start" : 1628122854629,
+      "stop" : 1628122855223,
+      "duration" : 594
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag::0",
+    "time" : {
+      "start" : 1628122859551,
+      "stop" : 1628122859551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加标签"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "13244-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "tagname",
+    "value" : "31313"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17a0cfb06470477.json",
+  "parameterValues" : [ "31313" ]
+}

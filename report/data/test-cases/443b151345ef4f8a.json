@@ -1,0 +1,94 @@
+{
+  "uid" : "443b151345ef4f8a",
+  "name" : "test_delete[删除的用户id不存在]",
+  "fullName" : "testcases.test_member.TestMember#test_delete",
+  "historyId" : "d2d65f3000c3245f5686b6cee7c9f199",
+  "time" : {
+    "start" : 1628122850801,
+    "stop" : 1628122852410,
+    "duration" : 1609
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getuserid",
+    "time" : {
+      "start" : 1628122850254,
+      "stop" : 1628122850254,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9586be951878a0a3",
+      "name" : "log",
+      "source" : "9586be951878a0a3.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除用户"
+  }, {
+    "name" : "feature",
+    "value" : "成员管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "13244-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userid",
+    "value" : "4214"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "443b151345ef4f8a.json",
+  "parameterValues" : [ "4214" ]
+}

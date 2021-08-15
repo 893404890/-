@@ -1,10 +1,10 @@
-import logging
+
 import time
-from string import Template
+
 
 import allure
 import pytest
-import yaml
+
 
 from API.api.member import User
 
@@ -27,7 +27,3 @@ class TestMember:
         assert r.json().get('errcode')==0
 
 
-
-    # def test_delete(self,get_tagname):
-    #     self.user.create_user()
-    #     self.user.delete_user(get_tagname)

@@ -1,0 +1,1 @@
+INFO     root:member.py:21 {'errcode': 41009, 'errmsg': 'Warning: wrong json format. missing userid, hint: [1629023997_148_061e59c2fe3ed106d0480050020967f4], from ip: 223.104.20.121, more info at https://open.work.weixin.qq.com/devtool/query?e=41009'}

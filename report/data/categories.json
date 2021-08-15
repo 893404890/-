@@ -7,7 +7,7 @@
       "name" : "TypeError: create_user() missing 1 required positional argument: 'data'",
       "children" : [ {
         "name" : "test_delete",
-        "uid" : "cdf8e855630688e0",
+        "uid" : "4d0caf3602484c5d",
         "parentUid" : "ad44ed52cd41acd0e52d92f6da1dd0dc",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('userin', <FixtureRequest for <Function test_add>>)",
       "children" : [ {
         "name" : "test_add",
-        "uid" : "54a235503d6741de",
+        "uid" : "b0025209467b594a",
         "parentUid" : "887f363a7d092d1b404b76d08a4a86fd",
         "status" : "broken",
         "time" : {
@@ -45,39 +45,39 @@
       "name" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
       "children" : [ {
         "name" : "标签名121313",
-        "uid" : "f3d9c108257b8dea",
+        "uid" : "36e7e08132342435",
         "parentUid" : "f4e26978c4275d625841711d830e175d",
         "status" : "failed",
         "time" : {
-          "start" : 1628122855223,
-          "stop" : 1628122855832,
-          "duration" : 609
+          "start" : 1628910388893,
+          "stop" : 1628910389349,
+          "duration" : 456
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "121313" ]
       }, {
         "name" : "标签名31313",
-        "uid" : "e853452b9cb3aa56",
+        "uid" : "755c1382de13a99b",
         "parentUid" : "f4e26978c4275d625841711d830e175d",
         "status" : "failed",
         "time" : {
-          "start" : 1628122855863,
-          "stop" : 1628122856473,
-          "duration" : 610
+          "start" : 1628910389361,
+          "stop" : 1628910389715,
+          "duration" : 354
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "31313" ]
       }, {
         "name" : "标签名31313",
-        "uid" : "12a5b85468fab704",
+        "uid" : "ec568203e03fab27",
         "parentUid" : "f4e26978c4275d625841711d830e175d",
         "status" : "failed",
         "time" : {
-          "start" : 1628122856488,
-          "stop" : 1628122856957,
-          "duration" : 469
+          "start" : 1628910389732,
+          "stop" : 1628910390142,
+          "duration" : 410
         },
         "flaky" : false,
         "newFailed" : false,

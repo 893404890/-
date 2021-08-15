@@ -1,0 +1,2 @@
+INFO     root:member.py:21 {'errcode': 60102, 'errmsg': 'Warning: wrong json format. userid existed, hint: [1629025703_148_efc32b931453cc6fb457d1c53136f571], from ip: 223.104.20.121, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+INFO     root:member.py:48 {'errcode': 0, 'errmsg': 'deleted'}

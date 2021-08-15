@@ -1,0 +1,112 @@
+{
+  "uid" : "c52e7984dfc55369",
+  "name" : "test_add[userid已存在]",
+  "fullName" : "testcases.test_member.TestMember#test_add",
+  "historyId" : "ff455f0713cacea817baad2315117257",
+  "time" : {
+    "start" : 1628910380586,
+    "stop" : 1628910381167,
+    "duration" : 581
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "userinfo",
+    "time" : {
+      "start" : 1628910380210,
+      "stop" : 1628910380210,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ff5de06a10e21ef",
+      "name" : "log",
+      "source" : "1ff5de06a10e21ef.txt",
+      "type" : "text/plain",
+      "size" : 251
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加用户：user/create"
+  }, {
+    "name" : "feature",
+    "value" : "成员管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "9640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userinfo",
+    "value" : "[{'params': {'department': 1, 'mobile': 13524569874, 'name': 'zhangsan', 'userid': 121080520213}}, {'result': 60102}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b6bf6cc3b3bed12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628122845145,
+        "stop" : 1628122845942,
+        "duration" : 797
+      }
+    }, {
+      "uid" : "8e21c9c2b0e24232",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628036654989,
+        "stop" : 1628036655458,
+        "duration" : 469
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c52e7984dfc55369.json",
+  "parameterValues" : [ "[{'params': {'department': 1, 'mobile': 13524569874, 'name': 'zhangsan', 'userid': 121080520213}}, {'result': 60102}]" ]
+}

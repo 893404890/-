@@ -1,0 +1,104 @@
+{
+  "uid" : "d017db29fae3dc03",
+  "name" : "test_delete[重复删除一个userid]",
+  "fullName" : "testcases.test_member.TestMember#test_delete",
+  "historyId" : "a2ca8265a99a00805ae2d3a637cb7752",
+  "time" : {
+    "start" : 1628910387150,
+    "stop" : 1628910388398,
+    "duration" : 1248
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getuserid",
+    "time" : {
+      "start" : 1628910386625,
+      "stop" : 1628910386625,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2fdf91671cf8066b",
+      "name" : "log",
+      "source" : "2fdf91671cf8066b.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除用户"
+  }, {
+    "name" : "feature",
+    "value" : "成员管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "9640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userid",
+    "value" : "213251"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcf7853c316f4c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628122853020,
+        "stop" : 1628122854598,
+        "duration" : 1578
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d017db29fae3dc03.json",
+  "parameterValues" : [ "213251" ]
+}

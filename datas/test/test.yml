@@ -1,0 +1,8 @@
+data:
+  -
+    - params:   #请求参数
+        department: 1
+        mobile: $mobile
+        name: zhangsan
+        userid: $userid
+    - result: 0 #预期结果

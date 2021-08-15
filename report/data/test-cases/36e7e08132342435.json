@@ -1,0 +1,142 @@
+{
+  "uid" : "36e7e08132342435",
+  "name" : "标签名121313",
+  "fullName" : "testcases.test_tag.TestTag#test_add",
+  "historyId" : "f774de403150dd8700baa76fa79e300e",
+  "time" : {
+    "start" : 1628910388893,
+    "stop" : 1628910389349,
+    "duration" : 456
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
+  "statusTrace" : "E   assert 40071 == 0\n      +40071\n      -0",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag",
+    "time" : {
+      "start" : 1628910388407,
+      "stop" : 1628910388891,
+      "duration" : 484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag::0",
+    "time" : {
+      "start" : 1628910392695,
+      "stop" : 1628910392695,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加标签"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "9640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "tagname",
+    "value" : "121313"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b8d0bd8513c4ba60",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
+      "time" : {
+        "start" : 1628122855223,
+        "stop" : 1628122855832,
+        "duration" : 609
+      }
+    }, {
+      "uid" : "e992c4cc65699e8d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
+      "time" : {
+        "start" : 1628036656880,
+        "stop" : 1628036657239,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "2cf512ae9440f498",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
+      "time" : {
+        "start" : 1627952576434,
+        "stop" : 1627952576856,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "7853967edde95652",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 40071 == 0\n  +40071\n  -0",
+      "time" : {
+        "start" : 1627952468703,
+        "stop" : 1627952469047,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "949744f91df54567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627484651358,
+        "stop" : 1627484652029,
+        "duration" : 671
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "36e7e08132342435.json",
+  "parameterValues" : [ "121313" ]
+}
